@@ -1,0 +1,13 @@
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\bin\Debug\Veterinaria.exe.config
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\bin\Debug\Veterinaria.exe
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\bin\Debug\Veterinaria.pdb
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\bin\Debug\Veterinaria.xml
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\obj\Debug\Veterinaria.vbprojAssemblyReference.cache
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Form1.resources
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Form2.resources
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\obj\Debug\Veterinaria.Resources.resources
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\obj\Debug\Veterinaria.vbproj.GenerateResource.cache
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\obj\Debug\Veterinaria.vbproj.CoreCompileInputs.cache
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\obj\Debug\Veterinaria.exe
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\obj\Debug\Veterinaria.xml
+C:\Users\sebas\source\repos\Veterinaria\Veterinaria\obj\Debug\Veterinaria.pdb
