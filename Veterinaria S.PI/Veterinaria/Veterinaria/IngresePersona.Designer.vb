@@ -24,12 +24,12 @@ Partial Class IngresePersona
     Private Sub InitializeComponent()
         Me.tbxRe = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.tbxCI = New System.Windows.Forms.TextBox()
-        Me.tbxNom = New System.Windows.Forms.TextBox()
-        Me.tbxDire = New System.Windows.Forms.TextBox()
+        Me.CIPersonaInput = New System.Windows.Forms.TextBox()
+        Me.NombrePersonaInput = New System.Windows.Forms.TextBox()
+        Me.DireccionPersonaInput = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.tbxNom1 = New System.Windows.Forms.Label()
+        Me.tbxNombrePerson = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -53,27 +53,27 @@ Partial Class IngresePersona
         Me.Button1.Text = "Aceptar"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'tbxCI
+        'CIPersonaInput
         '
-        Me.tbxCI.Location = New System.Drawing.Point(122, 143)
-        Me.tbxCI.Name = "tbxCI"
-        Me.tbxCI.Size = New System.Drawing.Size(236, 20)
-        Me.tbxCI.TabIndex = 3
+        Me.CIPersonaInput.Location = New System.Drawing.Point(122, 143)
+        Me.CIPersonaInput.Name = "CIPersonaInput"
+        Me.CIPersonaInput.Size = New System.Drawing.Size(236, 20)
+        Me.CIPersonaInput.TabIndex = 3
         '
-        'tbxNom
+        'NombrePersonaInput
         '
-        Me.tbxNom.Location = New System.Drawing.Point(122, 188)
-        Me.tbxNom.Name = "tbxNom"
-        Me.tbxNom.Size = New System.Drawing.Size(236, 20)
-        Me.tbxNom.TabIndex = 4
+        Me.NombrePersonaInput.Location = New System.Drawing.Point(122, 188)
+        Me.NombrePersonaInput.Name = "NombrePersonaInput"
+        Me.NombrePersonaInput.Size = New System.Drawing.Size(236, 20)
+        Me.NombrePersonaInput.TabIndex = 4
         '
-        'tbxDire
+        'DireccionPersonaInput
         '
-        Me.tbxDire.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.tbxDire.Location = New System.Drawing.Point(122, 225)
-        Me.tbxDire.Name = "tbxDire"
-        Me.tbxDire.Size = New System.Drawing.Size(236, 20)
-        Me.tbxDire.TabIndex = 5
+        Me.DireccionPersonaInput.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.DireccionPersonaInput.Location = New System.Drawing.Point(122, 227)
+        Me.DireccionPersonaInput.Name = "DireccionPersonaInput"
+        Me.DireccionPersonaInput.Size = New System.Drawing.Size(236, 20)
+        Me.DireccionPersonaInput.TabIndex = 5
         '
         'Label2
         '
@@ -95,15 +95,15 @@ Partial Class IngresePersona
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "CI"
         '
-        'tbxNom1
+        'tbxNombrePerson
         '
-        Me.tbxNom1.AutoSize = True
-        Me.tbxNom1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.25!)
-        Me.tbxNom1.Location = New System.Drawing.Point(48, 186)
-        Me.tbxNom1.Name = "tbxNom1"
-        Me.tbxNom1.Size = New System.Drawing.Size(68, 20)
-        Me.tbxNom1.TabIndex = 8
-        Me.tbxNom1.Text = "Nombre"
+        Me.tbxNombrePerson.AutoSize = True
+        Me.tbxNombrePerson.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.25!)
+        Me.tbxNombrePerson.Location = New System.Drawing.Point(48, 186)
+        Me.tbxNombrePerson.Name = "tbxNombrePerson"
+        Me.tbxNombrePerson.Size = New System.Drawing.Size(68, 20)
+        Me.tbxNombrePerson.TabIndex = 8
+        Me.tbxNombrePerson.Text = "Nombre"
         '
         'Label5
         '
@@ -121,12 +121,12 @@ Partial Class IngresePersona
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(370, 450)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.tbxNom1)
+        Me.Controls.Add(Me.tbxNombrePerson)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.tbxDire)
-        Me.Controls.Add(Me.tbxNom)
-        Me.Controls.Add(Me.tbxCI)
+        Me.Controls.Add(Me.DireccionPersonaInput)
+        Me.Controls.Add(Me.NombrePersonaInput)
+        Me.Controls.Add(Me.CIPersonaInput)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.tbxRe)
         Me.Name = "IngresePersona"
@@ -138,11 +138,11 @@ Partial Class IngresePersona
 
     Friend WithEvents tbxRe As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents tbxCI As TextBox
-    Friend WithEvents tbxNom As TextBox
-    Friend WithEvents tbxDire As TextBox
+    Friend WithEvents CIPersonaInput As TextBox
+    Friend WithEvents NombrePersonaInput As TextBox
+    Friend WithEvents DireccionPersonaInput As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents tbxNom1 As Label
+    Friend WithEvents tbxNombrePerson As Label
     Friend WithEvents Label5 As Label
 End Class
