@@ -22,4 +22,31 @@
             conexion.Close()
         End Try
     End Sub
+
+    Public Function Buscarpersona(ci As integer) As personas 
+        Try
+        Dim ClaseSln As New Conexion  
+        conexion = ClaseSln.AbrirConexion
+        Dim cmd As NpgsqlCommand 
+        cmd.Connection = conexion
+    
+        Dim CadenaDeComandos = "Select * from persona where cedulapersona = @ci "
+        cmd.CommandText= CadenaDeComandos 
+        cmd.Parameters.add("@ci", NpgsqlTypes.NpgsqlDbType.Integer).Value = ci
+        Dim lector As npgsql.DataReader = cmd.ExecuteReader
+        Dim personaNueva As personas
+
+    If lector.hasRows Then 
+        lector.Read()
+        personaNueva.Ci = Convert.ToInt32(lector(0).ToString)
+        personaNueva.Nombre = lector(1).ToString
+        personaNueva.direccion =lector(2).ToString
+
+    End if
+    Catch ex As Exception
+     
+    Finally
+    Return personaNueva
+    End Try
+    End Function
 End Class

@@ -21,8 +21,19 @@
         Dim Logica = New LogicaPersona
         Logica.altapersona(personanueva)
 
+        End sub
 
-    End Sub
+        Private Sub CIPersonaInput_TextChanged(sender As Object, e As EventArgs) Handles CIPersonaInput.TextChanged
 
-
+        Dim cedula As integer
+        cedula = CIPersonaInput.Text
+        Dim personaNueva As personas 
+        Dim logica As LogicaPersona
+        personaNueva = logica.buscarPersonas(cedula)
+        If  isNothing (personaNueva) Then 
+            NombrePersonaInput.Text = personaNueva.Nombre
+            DireccionPersonaInput.Text = personaNueva.direccion
+        else
+        End if
+      End Sub
 End Class

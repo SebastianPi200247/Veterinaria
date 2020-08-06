@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Veterinaria"
+    "\\Veterinaria",
+    "\\Veterinaria\\Veterinaria",
+    "\\Veterinaria\\Veterinaria\\bin",
+    "\\Veterinaria\\Veterinaria\\Logica",
+    "\\Veterinaria\\Veterinaria\\My Project",
+    "\\Veterinaria\\Veterinaria\\obj\\Debug\\TempPE",
+    "\\Veterinaria\\Veterinaria\\Persistencia"
   ],
-  "SelectedNode": "\\Veterinaria\\Veterinaria.sln",
+  "SelectedNode": "\\Veterinaria\\Veterinaria\\IngresePersona.vb",
   "PreviewInSolutionExplorer": false
 }
